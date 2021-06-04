@@ -87,3 +87,7 @@ html {
   background-color: #ff5654;
   background-image: url('img/like-down.png');
 }
+
+.joke--not-so-good {
+  opacity: 0.5;
+}

@@ -38,7 +38,10 @@ export const Joke = ({ userAvatar, userName, text, likes, dislikes }) => {
             className="btn-like btn-like--down"
             onClick={handleDislike}
           ></button>
-          <span id="likes-down" className="likes-count likes-count--down">
+          <span
+            id="likes-down"
+            className="likes-count likes-count--down joke--not-so-good"
+          >
             {dislike}
           </span>
         </div>
